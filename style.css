@@ -107,10 +107,13 @@ SECTION-3
 
 
 .container-3{
-     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;  */
+    display: flex;
+    justify-content:space-between ;
     align-items: center;
     width: 100%;
+    padding: 0 15% 0 15%;
 }
 
 .sub-title{
@@ -131,3 +134,8 @@ SECTION-3
     line-height: 1.8;
 }
 
+/* 
+=====================
+SECTION-4
+=====================
+*/
