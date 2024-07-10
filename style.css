@@ -46,3 +46,41 @@ html{
    color:#fff;   
   padding: 0 4.4rem;
 }
+
+
+/* 
+================================
+SECTION-2
+================================
+*/
+
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2.4rem;
+    padding: 6.2rem 4.8rem;
+}
+
+figure img{
+    display: block;
+    margin-bottom: 3.2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-head{
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #1864ab;
+}
+.text-description{
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #868e96;
+    line-height: 1.8;
+    margin-top: 2.4rem;
+    font-weight: lighter;
+}
