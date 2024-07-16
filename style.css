@@ -230,6 +230,7 @@ padding: 10% 0 10% 0;
     background-image: url("img/fivth-section-bg.png");
     background-size: cover;
     height: 100vh;
+    padding:20% 20%;  
 }
 
 .container-5{
@@ -241,10 +242,8 @@ padding: 10% 0 10% 0;
     gap: 2.4rem;
 }
 
-
 .description{
 text-align: right;
-
 }
 
 .headline-1{
@@ -259,4 +258,112 @@ text-align: right;
 .paragraph-1{
     font-size: 1.2rem;
     line-height: 1.6;
+}
+
+
+/*==========================
+        SECTION-6
+============================ */
+
+.container-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-section {
+    margin-right: 2rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    gap: 1.2rem;
+}
+
+.contact-item{
+    align-items: center;
+    font-weight: 600;
+}
+
+input{
+    width:45%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    border-radius: 4rem;
+    margin-right: 1.2rem;
+    color: #7a7a7a;
+    transition: all 0.1s;
+    outline: none;
+    transition: 0.3s;
+    padding: 1.5rem;
+}
+
+input:focus{
+   box-shadow: 0.2rem 0rem 0.6rem rgb(148, 194, 238);
+   border: 1px solid #3f97ea;
+}
+
+
+textarea{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    color: #7a7a7a;
+    border-radius: 2rem;
+    width: 92%;
+    height: 25vh;
+    margin-bottom: 2.4rem;
+    transition: all 0.2s;
+    display: inline-block;
+    transition: all 0.3s;
+    outline: none;
+    padding: 1.5rem;
+}
+
+textarea:focus{
+    box-shadow: 0.2rem 0rem 0.6rem rgb(148, 194, 238);
+    border: 1px solid #3f97ea;
+ }
+
+form{
+    padding:0 4.4rem ;
+}
+
+.send-button {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 1rem 1.4rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+
+.send-button:hover{
+    background-color: #000;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+.icon {
+    width:3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    color: #1864ab;
+    gap: 1.2rem;
+    
+}
+span{
+    color:#1864ab;
 }
